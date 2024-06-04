@@ -15,9 +15,9 @@ window.onload = function() {
 
   const domains = [];
 
-  for (const pronouns of pronouns) {
-    for (const adjs of adjs) {
-      for (const nouns of nouns) {
+  for (const p of pronouns) {
+    for (const a of adjs) {
+      for (const n of nouns) {
         const d = p + a + n + ".com";
         domains.push(d);
       }
